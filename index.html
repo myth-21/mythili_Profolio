@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mythili Dommati</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+  <nav class="sidebar">
+    <ul>
+      <li><a href="#hero" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+    <section id="hero" class="hero">
+      <h1>Hi, I'm <span id="typed"></span></h1>
+      <p>IT student | Web Developer | Problem Solver</p>
+      <a href="https://1drv.ms/b/c/837ea7649832256d/Ed1qDANvQERDnBewZI2Cu3AB3Rwu58Hl6yz6gJMIXS1y0Q?e=c7GHnh" class="btn" download>Download Resume</a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Anurag University</h3>
+          <p>B.Tech in Information Technology (2023–2027) – CGPA: 8.87 till 3 semester</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Narayana Junior College</h3>
+          <p>Intermediate (2021–2023) – 92.1%</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Vignan High School</h3>
+          <p>10th Grade (2020–2021) – CGPA: 10.00</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Grading System</h3>
+        <p>Automated student grade evaluation with MySQL, performance analytics, and report generation.</p>
+      </div>
+      <div class="project-card">
+        <h3>Employee Leave Management</h3>
+        <p>Digital platform for leave tracking, notifications, and policy compliance.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <h3>Languages Known</h3>
+      <div class="scroll-container">
+        <div class="skill-chip">C</div>
+        <div class="skill-chip">Python</div>
+        <div class="skill-chip">Java</div>
+        <div class="skill-chip">JavaScript</div>
+        <div class="skill-chip">HTML</div>
+        <div class="skill-chip">CSS</div>
+      </div>
+
+      <h3>Tools & Technologies</h3>
+      <div class="scroll-container">
+        <div class="skill-chip">MySQL</div>
+        <div class="skill-chip">GitHub</div>
+        <div class="skill-chip">VS Code</div>
+        <div class="skill-chip">Bootstrap</div>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card">Web Development – Internshala (Mar 2025)</div>
+        <div class="cert-card">OOP Onramp – MathWorks (Feb 2025)</div>
+        <div class="cert-card">Java – Infosys Springboard (Dec 2024)</div>
+        <div class="cert-card">Hack Attack – Web Dev in Education (Dec 2024)</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/mdkzgwdr" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <input type="text" name="_gotcha" style="display:none">
+        <button type="submit">Send Message</button>
+      </form>
+      <p>I’ll get back to you via email as soon as possible.</p>
+      <ul>
+        <li>Email: <a href="mailto:mythilidommati711@gmail.com">mythilidommati711@gmail.com</a></li>
+        <li>Phone: +91 8639657735</li>
+        <li><a href="https://www.linkedin.com/in/dommatimythili711">LinkedIn</a></li>
+        <li><a href="https://github.com/myth-21">GitHub</a></li>
+        <li><a href="https://leetcode.com/u/mythilidommati/">LeetCode</a></li>
+        <li><a href="https://www.hackerrank.com/profile/mythilidommati_1">HackerRank</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    const typed = new Typed('#typed', {
+      strings: ["Mythili Dommati", "Web Developer", "Problem Solver"],
+      typeSpeed: 60,
+      backSpeed: 30,
+      loop: true
+    });
+  </script>
+</body>
+</html>
